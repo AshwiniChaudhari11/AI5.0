@@ -28,7 +28,7 @@ if not st.session_state.user_id:
     st.stop()
 
 # API endpoint
-API_URL = "http://localhost:8000"  # Adjust this according to your backend URL
+API_URL = "http://127.0.0.1:8000"  # Adjust this according to your backend URL
 
 
 def send_message(user_query: str, messages: List[Dict[str, str]]) -> str:
